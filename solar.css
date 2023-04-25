@@ -270,10 +270,10 @@ body {
     
     .saturn {
         background-image: url(image/saturn.png);
-        width: 305px;
-        height: 130px;
+        width: 245px;
+        height: 105px;
         margin-top: 120%;
-        margin-left: 22%;
+        margin-left: 25%;
         transform: rotate(710deg);
     }
     
