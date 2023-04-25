@@ -8,7 +8,7 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 
-    background-image: url(image/space.jpeg);
+    background-image: url(../../image/space.jpeg);
     position: absolute;
     top: 0;
     left: 0;
@@ -18,11 +18,11 @@ body {
 }
 
 @keyframes move {
-    0% {margin-top: -1920px;}
+    100% {margin-top: -1920px;}
 }
 
 .mercury {
-    background-image: url(image/mercury.png);
+    background-image: url(../../image/mercury.png);
     width: 70px;
     height: 70px;
     margin-top: 39%;
@@ -30,7 +30,7 @@ body {
 }
 
 .venus {
-    background-image: url(image/venus.png);
+    background-image: url(../../image/venus.png);
     width: 100px;
     height: 100px;
     margin-top: 30%;
@@ -39,7 +39,7 @@ body {
 
 
 .earth {
-    background-image: url(image/earth.png);
+    background-image: url(../../image/earth.png);
     width: 100px;
     height: 100px;
     margin-top: 25%;
@@ -47,7 +47,7 @@ body {
 }
 
 .mars {
-    background-image: url(image/mars.png);
+    background-image: url(../../image/mars.png);
     width: 60px;
     height: 60px;
     margin-top: 32.5%;
@@ -55,17 +55,16 @@ body {
 }
 
 .jupitar {
-    background-image: url(image/jupitar.png);
+    background-image: url(../../image/jupitar.png);
     width: 200px;
     height: 200px;
     margin-top: 10%;
     margin-left: 35%;
-    position: relative;
 }
 
 
 .saturn {
-    background-image: url(image/saturn.png);
+    background-image: url(../../image/saturn.png);
     width: 305px;
     height: 130px;
     margin-top: 10%;
@@ -74,7 +73,7 @@ body {
 }
 
 .uranus {
-    background-image: url(image/uranus.png);
+    background-image: url(../../image/uranus.png);
     width: 210px;
     height: 100px;
     margin-top: 19%;
@@ -83,7 +82,7 @@ body {
 }
 
 .neptune {
-    background-image: url(image/neptune.png);
+    background-image: url(../../image/neptune.png);
     width: 100px;
     height: 100px;
     margin-top: 33%;
@@ -91,7 +90,7 @@ body {
 }
 
 .pluto {
-    background-image: url(image/pluto.png);
+    background-image: url(../../image/pluto.png);
     width: 30px;
     height: 30px;
     margin-top: 40%;
@@ -111,7 +110,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .jupitar:hover::before,
 .mercury:hover::before,
@@ -150,39 +148,39 @@ body {
 }
 
 .jupitar::before {
-    content: "jupitar";
+    content: "مشتری";
 }
 
 .mercury::before {
-    content: "mercury";
+    content: "عطارد";
 }
 
 .venus::before {
-    content: "venus";
+    content: "زهره";
 }
 
 .earth::before {
-    content: "earth";
+    content: "زمین";
 }
 
 .mars::before {
-    content: "mars";
+    content: "مریخ";
 }
 
 .saturn::before {
-    content: "saturn";
+    content: "زحل";
 }
 
 .uranus::before {
-    content: "uranus";
+    content: "اورانوس";
 }
 
 .neptune::before {
-    content: "neptiune";
+    content: "نپتون";
 }
 
 .pluto::before {
-    content: "pluto";
+    content: "پلوتون";
     bottom: 30px;
 }
 
@@ -201,11 +199,6 @@ body {
     font-family: 'Play', sans-serif;
 }
 
-@keyframes langanimation {
-    0% {right: -100px;}
-    100% {right: 0;}
-}
-
 .bold {
     font-weight: bolder;
     color: white;
@@ -219,10 +212,6 @@ body {
     text-decoration: none;
     color: white;
     cursor: pointer;
-}
-
-.after_hidden {
-    display: none;
 }
 
 @media (max-width: 500px) {
@@ -298,7 +287,7 @@ body {
         background-image: url(image/pluto.png);
         width: 40px;
         height: 40px;
-        margin-top: 100%;
-        margin-left: 66%;
+        margin-top: 185%;
+        margin-left: 86%;
     } 
 }
